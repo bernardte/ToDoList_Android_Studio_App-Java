@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">To-do App</string>
+    <!-- Sign up -->
+    <string name="title">To Do App</string>
+    <string name="Sign_Up">Sign Up</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="account_exist">Already an users? Login</string>
+    <!-- Login -->
+    <string name="logo_noback.png">Login Image</string>
+    <string name="login">Welcome!</string>
+    <string name="show_password">Show Password</string>
+    <string name="button_login">LOGIN</string>
+    <string name="account_not_exist"> Register Now…</string>
+    <string name="forget_password">Forget Password ?</string>
+    <!-- Forget Password -->
+    <string name="forget_password_title">Forget Password</string>
+    <string name="enter_email">Enter Your Email</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+    <!-- Share -->
+    <string name="share_title">Share Task</string>
+    <string name="enter_email_share">Enter Email to share with:</string>
+    <string name="cancel_share">Cancel</string>
+    <string name="share">Share</string>
+    <!-- Main Part -->
+    <string name="signout">Sign Out</string>
+    <!-- Add Task -->
+    <string name="add_task">Add Task</string>
+    <string name="set_due_date">Set Due Date</string>
+    <string name="add_task_btn">Save</string>
+    <string name="add_item">Add Items</string>
+    <!-- Sidebar -->
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="home">Home</string>
+    <string name="calendar">Calendar</string>
+    <string name="setting">Settings</string>
+    <string name="Logout">Logout</string>
+    <!-- Reminder -->
+    <string name="date_and_time">Select Date and Time</string>
+    <string-array name="ReminderTypes">
+        <item>Emergency!</item>
+        <item>Urgent!</item>
+        <item>Reminder!</item>
+    </string-array>
+    <!-- upload Photo -->
+    <string name="addNote">Add Note</string>
+    <string name="uploadButton">Upload Button</string>
+    <string name="backButton">Back</string>
+    <!-- Display Note -->
+    <string name="delete">deleted</string>
+    <string name="Note">Note</string>
+    <string name="mic_icon">Mic</string>
+</resources>

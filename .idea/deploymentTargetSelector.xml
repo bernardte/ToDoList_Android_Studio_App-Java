@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetSelector">
+    <selectionStates>
+      <SelectionState runConfigName="app">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2024-11-02T13:47:44.739618200Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\yuhan\.android\avd\Pixel_7_Pro_API_35.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="SignUpActivity">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="Splash">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2024-09-22T08:57:26.875845800Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\yuhan\.android\avd\Pixel_7_Pro_API_35.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="LoginActivity">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+    </selectionStates>
+  </component>
+</project>

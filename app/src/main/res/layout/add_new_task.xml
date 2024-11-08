@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/save_btn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:Content=".AddNewTask">
+
+    <EditText
+        android:id="@+id/task_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/light_blue"
+        android:hint="@string/add_task"
+        app:layout_constraintEnd_toStartOf="@+id/mic_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- ImageView for Mic Icon -->
+    <ImageButton
+        android:id="@+id/mic_icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:background="@null"
+        android:contentDescription="@string/mic_icon"
+        android:src="@drawable/baseline_mic_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/task_edittext"
+        tools:ignore="TouchTargetSizeCheck"
+        />
+
+    <TextView
+        android:id="@+id/set_due_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:drawableRight="@drawable/baseline_calendar_month_24"
+        android:drawablePadding="8dp"
+        android:text="@string/set_due_date"
+        android:textColor="#4169E1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/task_edittext" />
+
+
+    <!--    This TextView is for Clock Time-->
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#808080"
+        android:text="@string/add_task_btn"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/task_edittext" />
+
+    <TextView
+        android:id="@+id/set_due_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="4dp"
+        android:drawableRight="@drawable/baseline_access_time_24"
+        android:drawablePadding="8dp"
+        android:text="Set Due Time"
+        android:textColor="#4169E1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/task_edittext"
+        tools:ignore="MissingConstraints" />
+
+
+    <!--    This Button is for Reminder-->
+    <Button
+
+        android:id="@+id/addReminder"
+        android:layout_width="204dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="39dp"
+        android:backgroundTint="@color/white"
+
+        android:text="Add reminder at"
+        android:textColor="#4169E1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/task_edittext"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

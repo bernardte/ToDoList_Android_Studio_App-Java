@@ -1,0 +1,30 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/baseline_calendar_month_24"
+            android:title="@string/calendar"/>
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/baseline_edit_note_24"
+            android:title="@string/addNote"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="@string/setting"/>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/baseline_exit_to_app_24"
+            android:title="@string/Logout" />
+    </group>
+</menu>

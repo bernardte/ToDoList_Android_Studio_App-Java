@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "486484379820",
+    "project_id": "signup-44b48",
+    "storage_bucket": "signup-44b48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486484379820:android:7b0038c88a95bd97c7f709",
+        "android_client_info": {
+          "package_name": "student.inti.signuplogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKXlfUXuqcG-oGgP1odV5kiFPKNaFEbpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
